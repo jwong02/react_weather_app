@@ -1,0 +1,34 @@
+.Weather h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #17a2b8;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.Weather .main-temp {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Weather .current-high-low,
+.current-condition {
+  font-weight: bold;
+}
+
+.Weather .units {
+  position: relative;
+  top: -13px;
+  left: -3px;
+  font-size: 30px;
+}
