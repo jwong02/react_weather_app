@@ -1,13 +1,11 @@
 import "./App.css";
 import Engine from "./Engine";
-import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="app-container">
         <Engine />
-        <Weather />
       </div>
       <footer>
         {" "}
